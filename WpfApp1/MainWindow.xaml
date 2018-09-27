@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid LostFocus="Grid_LostFocus">
+    <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="509*"/>
             <ColumnDefinition Width="286*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnOK" Content="OK&#xD;&#xA;" HorizontalAlignment="Left" Margin="0.381,279,0,0" VerticalAlignment="Top" Width="75" Height="20" Grid.Column="1"/>
-        <Button x:Name="btnOK_Copy" Content="OK&#xA;" HorizontalAlignment="Left" Margin="102.381,279,0,0" VerticalAlignment="Top" Width="75" Height="20" Grid.Column="1"/>
+        <Button x:Name="btnSelectFile" Content="OK&#xD;&#xA;" HorizontalAlignment="Left" Margin="85,54,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button x:Name="btnOK_Copy" Content="OK&#xA;" HorizontalAlignment="Left" Margin="85,138,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
 
     </Grid>
 </Window>
